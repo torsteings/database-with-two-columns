@@ -7,8 +7,7 @@ class Command(BaseCommand):
         try:
             # save in db
             Job.objects.create(
-            url="test",            #insert comma if several columns
-            open_price = 10.05
+            url="test"            #insert comma if several columns
             )
         except:
             print('error')
